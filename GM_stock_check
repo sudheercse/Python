@@ -1,0 +1,8 @@
+myStocks= ['F', 'QCOM', 'MSFT', 'AAPL']
+print myStocks
+myStocks.append('CHASE')
+print myStocks
+if 'GM' in myStocks:
+    print "GM in stocks list"
+else:
+    print "GM not in stocks list"
